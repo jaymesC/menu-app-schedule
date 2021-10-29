@@ -1,3 +1,5 @@
+import Recipe from "./components/Recipe";
+import { data } from "./data";
 
 function App() {
   return (
@@ -8,6 +10,15 @@ function App() {
         <button className="buttonProps">Breakfast</button>
         <button className="buttonProps">Launch</button>
         <button className="buttonProps">Shakes</button>
+      </div>
+
+      <div className="wrapper" key={data.id}>
+      {data.map((food) => (
+        <div >
+        <Recipe {...food}/>  
+        </div>
+
+      ))}
       </div>
     </div>
   );
