@@ -19,3 +19,26 @@ text-align: center;
   padding-bottom: 5px;
   border-bottom: 5px solid #C59D5F;
 }
+
+.buttonContainer {
+  margin-top: 3rem;
+}
+
+.buttonProps{
+  color: #C59D5F;
+  border: none;
+  font-size: 16px;
+  margin-right: 1rem;
+  font-weight: 100;
+  font-family:  Arial;
+  padding: 10px 15px 10px 15px ;
+  transition: ease-in-out 0.3s all;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonProps:hover{
+  color: #fff;
+  background-color: #C59D5F;
+}
+
