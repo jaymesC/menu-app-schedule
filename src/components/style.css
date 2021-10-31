@@ -2,10 +2,10 @@
   /* border: 2px solid red; */
   display: flex;
   margin-right: 2rem;
-  /* width: 80%; */
+  width: 33rem;
 }
 
-.card img {
+ img {
   height: 9rem;
   width: 14rem;
   border: 4px solid #C59D5F;
